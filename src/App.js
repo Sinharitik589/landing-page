@@ -166,7 +166,10 @@ class App extends Component {
           }}
         >
           <div className="col-md-7 col-sm-12">
-            <img src="feature1.png" style={{ width: "100%", height: "auto" }} />
+            <img
+              src="feature 2.png"
+              style={{ width: "100%", height: "auto" }}
+            />
           </div>
           <div className="col-md-4 col-sm-12">
             <h3
@@ -201,7 +204,7 @@ class App extends Component {
           }}
         >
           <div className="col-md-7 col-sm-12">
-            <img src="feature1.png" style={{ width: "100%", height: "auto" }} />
+            <img src="feature3.png" style={{ width: "100%", height: "auto" }} />
           </div>
           <div className="col-md-4 col-sm-12">
             <h3
