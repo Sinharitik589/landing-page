@@ -1,38 +1,90 @@
-.App {
+.landing-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.landing-header {
+  align-items: center;
+  display: flex;
+
   text-align: center;
+  padding: 88px 10%;
+  flex-direction: column;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-para {
+  margin: 0 15%;
+  margin-bottom: 32px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 58px;
 }
+.landing-button {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 12px 43px;
+  height: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: inherit;
+  box-shadow: 0 8px 20px rgba(11, 13, 26, 0.1);
+  color: #fff;
+  background-color: #007ae2;
+  white-space: nowrap;
+  margin-bottom: 64px;
+}
+html {
+  letter-spacing: -0.1px;
+}
+.main-image {
+  width: 100%;
+  box-shadow: 0 24px 64px rgba(11, 13, 26, 0.32);
+}
+.landing-components {
+  padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.landing-component-des {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 900px) {
+  .landing-header {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 50px 0%;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .landing-para {
+    margin: 0;
+    margin-bottom: 32px;
+    line-height: 30px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 12px;
+  }
+  .landing-button {
+    margin-bottom: 48px;
   }
 }
